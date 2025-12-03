@@ -1,1 +1,12 @@
-# team-project-management
+# Team Project Management System
+
+这是一个团队项目管理系统，用于任务跟踪、进度管理和问题反馈。
+
+## 功能
+- 任务管理
+- 进度跟踪
+- 问题反馈
+- 标签管理
+
+## 开发指南
+请参考 `docs/` 目录下的文档。
