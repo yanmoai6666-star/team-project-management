@@ -1,0 +1,19 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "name": "team_project_management",
+    "user": "app_user",
+    "password": "secure_password_123"
+  },
+  "tables": {
+    "labels": "CREATE TABLE labels (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50), color_hex VARCHAR(7), category VARCHAR(50), usage TEXT)",
+    "issues": "CREATE TABLE issues (id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(200), description TEXT, status VARCHAR(20))"
+  },
+  "sampleData": {
+    "labels": [
+      "INSERT INTO labels (name, color_hex, category, usage) VALUES ('bug', '#d73a4a', '问题类型', '软件缺陷')",
+      "INSERT INTO labels (name, color_hex, category, usage) VALUES ('enhancement', '#a2eeef', '功能类型', '功能增强')"
+    ]
+  }
+}
